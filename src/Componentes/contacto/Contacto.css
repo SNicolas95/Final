@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+
+.container{
+    width: 60%;
+    margin: 5rem auto;
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+}
+
+.formulario{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 1rem auto;
+    width: min(37.5rem , 100%);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.contenedor-campos{
+
+}
+
+.campo{
+    margin-bottom: 1rem;
+}
+
+.campo label{
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: .5rem;
+}
+
+.input-text{
+    width: 100%;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    outline: none;
+    background-color: #f3f3f4;
+}
+
+.input-text:hover{
+    border: solid 1px #171717;
+   cursor: pointer;
+}
+
+.boton{
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.boton:hover{
+    cursor: pointer;
+}

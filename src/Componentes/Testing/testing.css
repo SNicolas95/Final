@@ -1,0 +1,52 @@
+.d-block w-100{ 
+    margin: 1rem;
+    border: 1px solid black;
+    box-sizing: none;
+    border-radius: 5rem;
+    box-shadow: 1rem grey;
+}
+
+.w-100{
+    border-radius: 1rem;
+    border: 0.2rem solid rgb(49, 48, 48)
+}
+
+.w-100:hover{
+    opacity: 0.7;
+}
+
+.hola{
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    margin: 5rem auto;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+@media (max-width: 768px) {
+    .hola{
+        width: 30rem;
+        height: 30rem;
+        display: flex;
+        margin: 5rem auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    
+}
+
+@media (max-width: 476px) {
+    .hola{
+        width: 20rem;
+        height: 20rem;
+        display: flex;
+        margin: 5rem auto;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1rem;
+    }
+    
+}
